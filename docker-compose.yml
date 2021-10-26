@@ -414,8 +414,16 @@ services:
       depends_on:
         - php-fpm
       networks:
-        - frontend
-        - backend
+        frontend:
+          aliases:
+            - "ulula-frontend-php56.loc"
+            - "ulula-api-php56.loc"
+            - "laravel6.loc"
+        backend:
+          aliases:
+            - "ulula-frontend-php56.loc"
+            - "ulula-api-php56.loc"
+            - "laravel6.loc"
 
 ### OpenResty Server #########################################
     openresty:

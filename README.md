@@ -16,6 +16,8 @@
 ## Awesome People
 
 My own setup for multi PHP version 💜
+Took help from
+https://msirius.medium.com/1-n-php-versions-and-projects-via-laradock-51938b337071 
 
 
 ## Version
